@@ -17,14 +17,33 @@ namespace RealEstateApp_HQT
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnOpenNVGD_Click(object sender, EventArgs e)
+        {
+            NhanVienGiaoDich formNVGD = new NhanVienGiaoDich();
+            formNVGD.Show();
+        }
+
+        private void btnOpenNVLT_Click(object sender, EventArgs e)
+        {
+            NhanVienLeTan formNVLT = new NhanVienLeTan();
+            formNVLT.Show();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void btnOpenNVQLCN_Click(object sender, EventArgs e)
         {
+            NhanVienQuanLy formNVQL = new NhanVienQuanLy();
+            formNVQL.Show();
+        }
 
+        private void btnOpenNVS_Click(object sender, EventArgs e)
+        {
+            NhanVienSale formNVS = new NhanVienSale();
+            formNVS.Show();
         }
     }
 }
