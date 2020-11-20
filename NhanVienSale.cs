@@ -15,6 +15,13 @@ namespace RealEstateApp_HQT
         public NhanVienSale()
         {
             InitializeComponent();
+            CBB_S_Y.SelectedIndex = 0;
+            CBB_S_N.SelectedIndex = 0;
+        }
+
+        private void BTN_View_Y_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

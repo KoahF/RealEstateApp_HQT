@@ -84,6 +84,9 @@
     <EmbeddedResource Include="KhachHang.resx">
       <DependentUpon>KhachHang.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="NhanVienGiaoDich.resx">
+      <DependentUpon>NhanVienGiaoDich.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="NhanVienQuanLy.resx">
       <DependentUpon>NhanVienQuanLy.cs</DependentUpon>
     </EmbeddedResource>

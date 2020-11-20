@@ -15,6 +15,13 @@ namespace RealEstateApp_HQT
         public NhanVienGiaoDich()
         {
             InitializeComponent();
+            CBB_S_Y.SelectedIndex = 0;
+            CBB_S_N.SelectedIndex = 0;
+        }
+
+        private void btnView_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
