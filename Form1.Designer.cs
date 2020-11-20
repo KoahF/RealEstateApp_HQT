@@ -31,7 +31,6 @@ namespace RealEstateApp_HQT
         {
             this.btnOpenNVQLCN = new System.Windows.Forms.Button();
             this.btnOpenNVGD = new System.Windows.Forms.Button();
-            this.btnOpenNVLT = new System.Windows.Forms.Button();
             this.btnOpenNVS = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -48,7 +47,7 @@ namespace RealEstateApp_HQT
             // 
             // btnOpenNVGD
             // 
-            this.btnOpenNVGD.Location = new System.Drawing.Point(12, 223);
+            this.btnOpenNVGD.Location = new System.Drawing.Point(148, 223);
             this.btnOpenNVGD.Name = "btnOpenNVGD";
             this.btnOpenNVGD.Size = new System.Drawing.Size(167, 30);
             this.btnOpenNVGD.TabIndex = 1;
@@ -56,19 +55,9 @@ namespace RealEstateApp_HQT
             this.btnOpenNVGD.UseVisualStyleBackColor = true;
             this.btnOpenNVGD.Click += new System.EventHandler(this.btnOpenNVGD_Click);
             // 
-            // btnOpenNVLT
-            // 
-            this.btnOpenNVLT.Location = new System.Drawing.Point(273, 223);
-            this.btnOpenNVLT.Name = "btnOpenNVLT";
-            this.btnOpenNVLT.Size = new System.Drawing.Size(183, 30);
-            this.btnOpenNVLT.TabIndex = 2;
-            this.btnOpenNVLT.Text = "Nhân viên lễ tân";
-            this.btnOpenNVLT.UseVisualStyleBackColor = true;
-            this.btnOpenNVLT.Click += new System.EventHandler(this.btnOpenNVLT_Click);
-            // 
             // btnOpenNVS
             // 
-            this.btnOpenNVS.Location = new System.Drawing.Point(522, 223);
+            this.btnOpenNVS.Location = new System.Drawing.Point(413, 223);
             this.btnOpenNVS.Name = "btnOpenNVS";
             this.btnOpenNVS.Size = new System.Drawing.Size(172, 30);
             this.btnOpenNVS.TabIndex = 3;
@@ -94,7 +83,6 @@ namespace RealEstateApp_HQT
             this.ClientSize = new System.Drawing.Size(716, 314);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnOpenNVS);
-            this.Controls.Add(this.btnOpenNVLT);
             this.Controls.Add(this.btnOpenNVGD);
             this.Controls.Add(this.btnOpenNVQLCN);
             this.Name = "Form1";
@@ -108,7 +96,6 @@ namespace RealEstateApp_HQT
 
         private System.Windows.Forms.Button btnOpenNVQLCN;
         private System.Windows.Forms.Button btnOpenNVGD;
-        private System.Windows.Forms.Button btnOpenNVLT;
         private System.Windows.Forms.Button btnOpenNVS;
         private System.Windows.Forms.Label label1;
     }

@@ -15,6 +15,12 @@ namespace RealEstateApp_HQT
         public NhanVienQuanLy()
         {
             InitializeComponent();
+            cbxSelectTable.SelectedIndex = 1;
+        }
+
+        private void cbxSelectTable_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
