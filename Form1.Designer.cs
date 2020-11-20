@@ -33,6 +33,7 @@ namespace RealEstateApp_HQT
             this.btnOpenNVGD = new System.Windows.Forms.Button();
             this.btnOpenNVS = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnOpenKhachHang = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnOpenNVQLCN
@@ -47,7 +48,7 @@ namespace RealEstateApp_HQT
             // 
             // btnOpenNVGD
             // 
-            this.btnOpenNVGD.Location = new System.Drawing.Point(148, 223);
+            this.btnOpenNVGD.Location = new System.Drawing.Point(34, 223);
             this.btnOpenNVGD.Name = "btnOpenNVGD";
             this.btnOpenNVGD.Size = new System.Drawing.Size(167, 30);
             this.btnOpenNVGD.TabIndex = 1;
@@ -57,7 +58,7 @@ namespace RealEstateApp_HQT
             // 
             // btnOpenNVS
             // 
-            this.btnOpenNVS.Location = new System.Drawing.Point(413, 223);
+            this.btnOpenNVS.Location = new System.Drawing.Point(512, 223);
             this.btnOpenNVS.Name = "btnOpenNVS";
             this.btnOpenNVS.Size = new System.Drawing.Size(172, 30);
             this.btnOpenNVS.TabIndex = 3;
@@ -76,11 +77,22 @@ namespace RealEstateApp_HQT
             this.label1.Text = "Vui lòng chọn loại người dùng để đăng nhập";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
+            // btnOpenKhachHang
+            // 
+            this.btnOpenKhachHang.Location = new System.Drawing.Point(283, 223);
+            this.btnOpenKhachHang.Name = "btnOpenKhachHang";
+            this.btnOpenKhachHang.Size = new System.Drawing.Size(167, 30);
+            this.btnOpenKhachHang.TabIndex = 5;
+            this.btnOpenKhachHang.Text = "Khách hàng";
+            this.btnOpenKhachHang.UseVisualStyleBackColor = true;
+            this.btnOpenKhachHang.Click += new System.EventHandler(this.btnOpenKhachHang_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(716, 314);
+            this.Controls.Add(this.btnOpenKhachHang);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnOpenNVS);
             this.Controls.Add(this.btnOpenNVGD);
@@ -98,6 +110,7 @@ namespace RealEstateApp_HQT
         private System.Windows.Forms.Button btnOpenNVGD;
         private System.Windows.Forms.Button btnOpenNVS;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button btnOpenKhachHang;
     }
 }
 

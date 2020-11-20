@@ -22,13 +22,6 @@ namespace RealEstateApp_HQT
             NhanVienGiaoDich formNVGD = new NhanVienGiaoDich();
             formNVGD.Show();
         }
-
-        private void btnOpenNVLT_Click(object sender, EventArgs e)
-        {
-            NhanVienLeTan formNVLT = new NhanVienLeTan();
-            formNVLT.Show();
-        }
-
         private void label1_Click(object sender, EventArgs e)
         {
 
@@ -44,6 +37,12 @@ namespace RealEstateApp_HQT
         {
             NhanVienSale formNVS = new NhanVienSale();
             formNVS.Show();
+        }
+
+        private void btnOpenKhachHang_Click(object sender, EventArgs e)
+        {
+            KhachHang formKhachHang = new KhachHang();
+            formKhachHang.Show();
         }
     }
 }

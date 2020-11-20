@@ -15,10 +15,21 @@ namespace RealEstateApp_HQT
         public NhanVienQuanLy()
         {
             InitializeComponent();
-            cbxSelectTable.SelectedIndex = 1;
+            cbxSelectTable1.SelectedIndex = 1;
+            cbxSelectTable0.SelectedIndex = 1;
         }
 
         private void cbxSelectTable_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox7_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void groupBox10_Enter(object sender, EventArgs e)
         {
 
         }
