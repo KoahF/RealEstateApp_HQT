@@ -21,7 +21,18 @@ namespace RealEstateApp_HQT
 
         private void BTN_View_Y_Click(object sender, EventArgs e)
         {
-
+            String value = CBB_S_Y.SelectedItem.ToString();
+            
+            if(value == "Khách Hàng")
+            {
+                Sale_KhachHang_Y formSKHY = new Sale_KhachHang_Y();
+                formSKHY.Show();
+            }
+            else if(value == "Chủ Nhà")
+            {
+                Sale_ChuNha_Y formSCNY = new Sale_ChuNha_Y();
+                formSCNY.Show();
+            }
         }
     }
 }
